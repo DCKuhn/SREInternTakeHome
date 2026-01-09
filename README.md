@@ -33,4 +33,4 @@ After verification, all AWS resources can be removed by running terraform destro
 
 ## Notes
 
-AWS credentials are not included in this repository. Resources are created in the AWS account associated with the credentials used at runtime. The configuration can be safely destroyed and re-created multiple times.
+AWS credentials are not included in this repository. Resources are created in the AWS account associated with the credentials used at runtime. The configuration can be safely destroyed and re-created multiple times. Every push to main on this repo runs this automatically, via a GitHub Action.
